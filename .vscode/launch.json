@@ -8,12 +8,12 @@
       "name": "emulator dbg",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/main/bin/main",
+      "program": "${workspaceFolder}/app/bin/main",
       "args": [
         
       ],
       "stopAtEntry": false,
-      "cwd": "${workspaceFolder}/main/bin",
+      "cwd": "${workspaceFolder}/app/bin",
       "environment": [
         
       ],
