@@ -6,7 +6,7 @@
     {
       "label": "configure (debug)",
       "type": "shell",
-      "command": "./configure.sh",
+      "command": "./scripts/configure.sh",
       "args": [
         "--name",
         "main",
@@ -16,9 +16,6 @@
       "options": {
         "cwd": "${workspaceFolder}"
       },
-      "problemMatcher": [
-        "$gcc"
-      ],
       "presentation": {
         "clear": true
       }
@@ -26,15 +23,12 @@
     {
       "label": "configure (release)",
       "type": "shell",
-      "command": "./configure.sh",
+      "command": "./scripts/configure.sh",
       "args": [
       ],
       "options": {
         "cwd": "${workspaceFolder}"
       },
-      "problemMatcher": [
-        "$gcc"
-      ],
       "presentation": {
         "clear": true
       }
@@ -42,7 +36,7 @@
     {
       "label": "build (debug)",
       "type": "shell",
-      "command": "./build.sh",
+      "command": "./scripts/build.sh",
       "args": [
         "--name",
         "main",
@@ -52,9 +46,6 @@
       "options": {
         "cwd": "${workspaceFolder}"
       },
-      "problemMatcher": [
-        "$gcc"
-      ],
       "group": {
         "kind": "build",
         "isDefault": true
@@ -67,18 +58,11 @@
     {
       "label": "build (release)",
       "type": "shell",
-      "command": "./build.sh",
+      "command": "./scripts/build.sh",
       "args": [
       ],
       "options": {
         "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": [
-        "$gcc"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
       },
       "presentation": {
         "clear": true,
